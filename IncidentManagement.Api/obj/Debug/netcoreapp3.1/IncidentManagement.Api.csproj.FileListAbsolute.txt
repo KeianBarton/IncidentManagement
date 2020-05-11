@@ -12,3 +12,17 @@ C:\Dev\IncidentManagement\IncidentManagement\IncidentManagement.Api\obj\Debug\ne
 C:\Dev\IncidentManagement\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.csproj.CopyComplete
 C:\Dev\IncidentManagement\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.dll
 C:\Dev\IncidentManagement\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.pdb
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.Api.deps.json
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.Api.dll
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.Api.pdb
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.DataAccess.dll
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.Services.dll
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.Services.pdb
+C:\Dev\IncidentManagement\IncidentManagement.Api\bin\Debug\netcoreapp3.1\IncidentManagement.DataAccess.pdb
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.csprojAssemblyReference.cache
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.csproj.CoreCompileInputs.cache
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.AssemblyInfoInputs.cache
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.AssemblyInfo.cs
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.csproj.CopyComplete
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.dll
+C:\Dev\IncidentManagement\IncidentManagement.Api\obj\Debug\netcoreapp3.1\IncidentManagement.Api.pdb

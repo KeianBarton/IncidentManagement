@@ -1734,11 +1734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Api\\IncidentManagement.Api.csproj",
+      "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement.Api\\IncidentManagement.Api.csproj",
       "projectName": "IncidentManagement.Api",
-      "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Api\\IncidentManagement.Api.csproj",
+      "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.Api\\IncidentManagement.Api.csproj",
       "packagesPath": "C:\\Users\\keian\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Api\\obj\\",
+      "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1759,8 +1759,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj": {
-              "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj"
+            "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj": {
+              "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj"
             }
           }
         }

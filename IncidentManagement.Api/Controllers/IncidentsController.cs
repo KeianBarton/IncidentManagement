@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace IncidentManagement.Api.Controllers
 {
     [ApiController]
-    [Route("api/incidents")]
+    [Route("api/[controller]")]
     public class IncidentsController : ControllerBase
     {
         private readonly IDataAccessService _dataAccessService;
@@ -20,6 +20,7 @@ namespace IncidentManagement.Api.Controllers
         [HttpGet]
         public async Task<ActionResult> GetIncidents()
         {
+            
             IEnumerable<IncidentDto> incidents = await _dataAccessService
                 .IncidentQueries
                 .Get();

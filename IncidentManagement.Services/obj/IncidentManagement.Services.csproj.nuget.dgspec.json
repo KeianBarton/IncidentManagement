@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj": {}
+    "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj": {
+    "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
+        "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
         "projectName": "IncidentManagement.DataAccess",
-        "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
+        "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
         "packagesPath": "C:\\Users\\keian\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\obj\\",
+        "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj": {
+    "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj",
+        "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj",
         "projectName": "IncidentManagement.Services",
-        "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj",
+        "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\IncidentManagement.Services.csproj",
         "packagesPath": "C:\\Users\\keian\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.Services\\obj\\",
+        "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -103,8 +103,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj": {
-                "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj"
+              "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj": {
+                "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj"
               }
             }
           }

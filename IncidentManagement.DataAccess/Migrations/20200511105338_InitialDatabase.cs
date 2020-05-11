@@ -26,7 +26,7 @@ namespace IncidentManagement.DataAccess.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(maxLength: 64, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Description = table.Column<string>(nullable: true),
                     Occurence = table.Column<DateTime>(nullable: false),
                     LocationLatitude = table.Column<float>(nullable: false),
                     LocationLongitude = table.Column<float>(nullable: false)

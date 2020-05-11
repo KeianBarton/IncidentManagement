@@ -1043,11 +1043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
+      "projectUniqueName": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
       "projectName": "IncidentManagement.DataAccess",
-      "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
+      "projectPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\IncidentManagement.DataAccess.csproj",
       "packagesPath": "C:\\Users\\keian\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement\\IncidentManagement.DataAccess\\obj\\",
+      "outputPath": "C:\\Dev\\IncidentManagement\\IncidentManagement.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

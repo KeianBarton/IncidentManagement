@@ -23,7 +23,7 @@ namespace IncidentManagement.DataAccess.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("TEXT");
 
                     b.Property<float>("LocationLatitude")
                         .HasColumnType("REAL");
