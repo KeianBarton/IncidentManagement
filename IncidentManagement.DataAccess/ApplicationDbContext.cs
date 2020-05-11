@@ -14,15 +14,6 @@ namespace IncidentManagement.DataAccess
         public DbSet<Incident> Incidents { get; set; }
         public DbSet<Location> Locations { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            options.UseSqlite
-            (
-                "Data Source=incidentmanagement.db",
-                builder => builder.MigrationsAssembly("IncidentManagement.DataAccess")
-            );
-        }
-
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new IncidentConfiguration());

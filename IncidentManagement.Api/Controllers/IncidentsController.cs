@@ -32,7 +32,7 @@ namespace IncidentManagement.Api.Controllers
         {
             await _dataAccessService
                 .IncidentQueries
-                .AddIncident(incident);
+                .Add(incident);
             return NoContent();
         }
     }

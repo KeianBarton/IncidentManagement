@@ -20,7 +20,11 @@ namespace IncidentManagement.Web
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>();
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite
+            (
+                "Data Source=incidentmanagement.db",
+                builder => builder.MigrationsAssembly("IncidentManagement.DataAccess")
+            ));
             services.AddTransient<IDataAccessService, DataAccessService>();
             services.AddControllers();
             services.AddSpaStaticFiles(configuration =>

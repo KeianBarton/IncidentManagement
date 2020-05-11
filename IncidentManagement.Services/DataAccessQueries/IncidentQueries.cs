@@ -16,12 +16,26 @@ namespace IncidentManagement.Services.DataAccessQueries
 
         public IncidentQueries(ApplicationDbContext context) => _context = context;
 
-        public async Task AddIncident(IncidentDto incident)
+        public async Task Add(IncidentDto incident)
         {
-            if (incident == null || incident.Location == null)
+            if
+            (
+                incident == null ||
+                incident.Location == null ||
+                incident.Occurence == default ||
+                incident.Occurence > DateTime.Now
+            )
             {
                 throw new ArgumentException();
             }
+
+            Location dbLocation = _context.Locations
+                .SingleOrDefault
+                (
+                    l =>
+                    l.Latitude == incident.Location.Latitude &&
+                    l.Longitude == incident.Location.Longitude
+                );
 
             // We could use AutoMapper for a more complex application
             var newIncident = new Incident
@@ -29,7 +43,7 @@ namespace IncidentManagement.Services.DataAccessQueries
                 Title = incident.Title,
                 Description = incident.Description,
                 Occurence = incident.Occurence,
-                Location = new Location
+                Location = dbLocation ?? new Location
                 {
                     Latitude = incident.Location.Latitude,
                     Longitude = incident.Location.Longitude,

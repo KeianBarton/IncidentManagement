@@ -7,6 +7,6 @@ namespace IncidentManagement.Services.DataAccessQueries
     public interface IIncidentQueries
     {
         Task<IEnumerable<IncidentDto>> Get();
-        Task AddIncident(IncidentDto incident);
+        Task Add(IncidentDto incident);
     }
 }
