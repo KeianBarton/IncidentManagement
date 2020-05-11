@@ -14,4 +14,3 @@ C:\Dev\IncidentManagement\IncidentManagement.DataAccess\obj\Debug\netcoreapp3.1\
 C:\Dev\IncidentManagement\IncidentManagement.DataAccess\obj\Debug\netcoreapp3.1\IncidentManagement.DataAccess.AssemblyInfo.cs
 C:\Dev\IncidentManagement\IncidentManagement.DataAccess\obj\Debug\netcoreapp3.1\IncidentManagement.DataAccess.dll
 C:\Dev\IncidentManagement\IncidentManagement.DataAccess\obj\Debug\netcoreapp3.1\IncidentManagement.DataAccess.pdb
-C:\Dev\IncidentManagement\IncidentManagement.DataAccess\obj\Debug\netcoreapp3.1\IncidentManagement.DataAccess.csprojAssemblyReference.cache

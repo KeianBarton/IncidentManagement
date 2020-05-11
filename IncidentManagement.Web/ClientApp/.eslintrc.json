@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:jest/all",
+    "plugin:jest-dom/recommended",
+    "plugin:react/recommended",
+    "plugin:testing-library/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": [
+      "@typescript-eslint/eslint-plugin",
+      "import",
+      "jest",
+      "jest-dom",
+      "react-hooks",
+      "testing-library"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "double"],
+    "jest/no-hooks": ["error",
+    {
+      "allow": ["afterEach", "afterAll"]
+    }],
+    "react-hooks/rule-of-hooks": "error",
+    "semi": ["error", "always"],
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/interface-name-prefix": ["error", "always"],
+    "react/prop-types": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}

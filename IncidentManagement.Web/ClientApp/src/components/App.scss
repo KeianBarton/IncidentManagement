@@ -1,0 +1,7 @@
+#app-main-vertical-fill {
+  height: 100%;
+  // 56px header, 57px footer
+  // Avoid hardcoding pixel values except for this particular case
+  max-height: calc(100% - 56px - 57px);
+  overflow-y: scroll;
+}
