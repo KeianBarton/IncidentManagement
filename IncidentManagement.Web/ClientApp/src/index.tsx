@@ -5,7 +5,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
-const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href");
+const baseUrl = document.getElementsByTagName("base")[0].getAttribute("href") || undefined;
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(
