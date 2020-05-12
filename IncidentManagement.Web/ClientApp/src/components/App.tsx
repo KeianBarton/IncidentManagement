@@ -9,7 +9,7 @@ import { AddIncident, ViewIncidents } from "./incidents";
 const App: React.FC = () =>
   <>
     <NavMenu />
-    <main id="app-main-vertical-fill" className="bg-light py-4">
+    <main id="app-main-vertical-fill" className="py-4">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/incidents/add" component={AddIncident} />

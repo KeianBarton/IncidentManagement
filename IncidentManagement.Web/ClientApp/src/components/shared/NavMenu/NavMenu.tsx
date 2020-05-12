@@ -48,10 +48,10 @@ const NavMenu: React.FC = () => {
                 </DropdownToggle>
               </NavItem>
               <DropdownMenu direction="left">
-                <DropdownItem tag={RRNavLink} exact to="/incidents/add" activeCLassName="active">
+                <DropdownItem tag={RRNavLink} exact to="/incidents/add" activeClassName="active">
                   Add Incident
                 </DropdownItem>
-                <DropdownItem tag={RRNavLink} exact to="/incidents/view" activeCLassName="active">
+                <DropdownItem tag={RRNavLink} exact to="/incidents/view" activeClassName="active">
                   View Incidents
                 </DropdownItem>
               </DropdownMenu>
