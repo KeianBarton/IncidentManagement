@@ -23,7 +23,7 @@ namespace IncidentManagement.Api.Tests.Controllers
                     Id = 1,
                     Description = "Example Description",
                     Title = "Example Title",
-                    Occurence = new DateTime(2000, 12, 25),
+                    Occurrence = new DateTime(2000, 12, 25),
                     Location = new LocationDto
                     {
                         Latitude = 1,
@@ -53,7 +53,7 @@ namespace IncidentManagement.Api.Tests.Controllers
             {
                 Description = "Example Description",
                 Title = "Example Title",
-                Occurence = new DateTime(2000, 12, 25),
+                Occurrence = new DateTime(2000, 12, 25),
                 Location = new LocationDto
                 {
                     Latitude = 1,

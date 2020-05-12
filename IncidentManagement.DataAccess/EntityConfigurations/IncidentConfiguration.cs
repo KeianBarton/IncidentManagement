@@ -15,7 +15,7 @@ namespace IncidentManagement.DataAccess.EntityConfigurations
                 .HasMaxLength(64);
             builder.Property(i => i.Description);
                 //.HasColumnType("nvarchar(max)"); SQL Server
-            builder.Property(i => i.Occurence)
+            builder.Property(i => i.Occurrence)
                 .IsRequired();
 
             // Relationship configurations

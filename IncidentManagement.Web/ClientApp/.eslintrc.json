@@ -34,7 +34,7 @@
     {
       "allow": ["afterEach", "afterAll"]
     }],
-    "react-hooks/rule-of-hooks": "error",
+    "react-hooks/rules-of-hooks": "error",
     "semi": ["error", "always"],
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/interface-name-prefix": ["error", "always"],

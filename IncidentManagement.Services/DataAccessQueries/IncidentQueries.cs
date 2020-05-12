@@ -22,8 +22,8 @@ namespace IncidentManagement.Services.DataAccessQueries
             (
                 incident == null ||
                 incident.Location == null ||
-                incident.Occurence == default ||
-                incident.Occurence > DateTime.Now
+                incident.Occurrence == default ||
+                incident.Occurrence > DateTime.Now
             )
             {
                 throw new ArgumentException();
@@ -42,7 +42,7 @@ namespace IncidentManagement.Services.DataAccessQueries
             {
                 Title = incident.Title,
                 Description = incident.Description,
-                Occurence = incident.Occurence,
+                Occurrence = incident.Occurrence,
                 Location = dbLocation ?? new Location
                 {
                     Latitude = incident.Location.Latitude,
@@ -63,7 +63,7 @@ namespace IncidentManagement.Services.DataAccessQueries
                 Id = i.Id,
                 Title = i.Title,
                 Description = i.Description,
-                Occurence = i.Occurence,
+                Occurrence = i.Occurrence,
                 Location = new LocationDto
                 {
                     Latitude = i.Location.Latitude,

@@ -1,0 +1,5 @@
+{
+  "api": {
+    "incidents": "/api/incidents"
+  }
+}
